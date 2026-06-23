@@ -1,27 +1,55 @@
-# summer of code PyTorch
-# Summer of Code - PyTorch
+# Summer of Code - PyTorch Project
 
-This repository contains my Summer of Code Deep Learning assignments implemented using PyTorch.
+This repository contains my Summer of Code assignments implemented using PyTorch.
 
-## Week 1: Neural Network on MNIST
+## Project Structure
 
-### Objective
-Build and train a neural network model to classify handwritten digits from the MNIST dataset.
+### Week 1 - MNIST Neural Network
 
-### Concepts Covered
-- PyTorch basics
-- Dataset loading
-- Neural Network architecture
-- Forward propagation
-- Backpropagation
-- Loss function
-- Adam optimizer
-- Model evaluation
+* Implemented a fully connected neural network using PyTorch.
+* Trained on the MNIST handwritten digit dataset.
+* Evaluated model performance and saved trained weights.
 
-### Result
-Test Accuracy: 97.77%
+Files:
 
-## Files
+* week1_mnist.ipynb
+* mnist_neural_network.pth
 
-- `week1neuralnetwork.ipynb` - Jupyter Notebook containing implementation
-- `mnist_neural_network.pth` - Trained model weights
+### Week 2 - VGG-Inspired CNN on CIFAR-10
+
+* Implemented a VGG-style Convolutional Neural Network.
+* Trained and evaluated on the CIFAR-10 dataset.
+* Visualized training and validation loss curves.
+* Achieved approximately 71.5% classification accuracy.
+
+Files:
+
+* week2_vgg_cifar10.ipynb
+
+### Week 3 - DCGAN on MNIST
+
+* Implemented Generator and Discriminator architectures.
+* Trained a Deep Convolutional Generative Adversarial Network (DCGAN).
+* Generated synthetic handwritten digit images.
+* Saved trained Generator and Discriminator models.
+
+Files:
+
+* week3_dcgan_mnist.ipynb
+* generator.pth
+* discriminator.pth
+
+## Technologies Used
+
+* Python
+* PyTorch
+* Torchvision
+* NumPy
+* Matplotlib
+* Jupyter Notebook
+
+## Author
+
+Karan Pilania
+Summer of Code Participant
+
